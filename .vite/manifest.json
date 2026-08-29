@@ -1,69 +1,83 @@
 {
-  "_framework-DjPHiq1u.js": {
-    "file": "assets/framework-DjPHiq1u.js",
+  "_framework-DTZGTDtF.js": {
+    "file": "_next/static/chunks/framework-DTZGTDtF.js",
     "name": "framework",
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js"
+      "_rolldown-runtime-hePW80VL.js"
     ]
   },
-  "_rolldown-runtime-S-ySWqyJ.js": {
-    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+  "_rolldown-runtime-hePW80VL.js": {
+    "file": "_next/static/chunks/rolldown-runtime-hePW80VL.js",
     "name": "rolldown-runtime"
   },
+  "_vinext-PMBbBh1i.js": {
+    "file": "_next/static/chunks/vinext-PMBbBh1i.js",
+    "name": "vinext",
+    "imports": [
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-DTZGTDtF.js"
+    ],
+    "dynamicImports": [
+      "_vinext-PMBbBh1i.js"
+    ]
+  },
   "app/GalleryMedia.tsx": {
-    "file": "assets/GalleryMedia-Dst9L7Zv.js",
+    "file": "_next/static/chunks/GalleryMedia-CqmHzNjK.js",
     "name": "GalleryMedia",
     "src": "app/GalleryMedia.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "node_modules/vinext/dist/shims/image.js",
-      "_framework-DjPHiq1u.js"
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-DTZGTDtF.js",
+      "node_modules/vinext/dist/shims/image.js"
     ]
   },
   "node_modules/vinext/dist/shims/image.js": {
-    "file": "assets/image-NQPggmMm.js",
+    "file": "_next/static/chunks/image-C7WlizO5.js",
     "name": "image",
     "src": "node_modules/vinext/dist/shims/image.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-DjPHiq1u.js"
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-DTZGTDtF.js",
+      "_vinext-PMBbBh1i.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-BS4k8A8q.js",
+    "file": "_next/static/chunks/layout-segment-context-Dxfxb_hd.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "virtual:vinext-app-browser-entry",
-      "_framework-DjPHiq1u.js"
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-DTZGTDtF.js",
+      "_vinext-PMBbBh1i.js"
     ]
   },
   "node_modules/vinext/dist/shims/script.js": {
-    "file": "assets/script-SnRtWf0C.js",
+    "file": "_next/static/chunks/script-7jnUDDim.js",
     "name": "script",
     "src": "node_modules/vinext/dist/shims/script.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-DjPHiq1u.js"
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-DTZGTDtF.js",
+      "_vinext-PMBbBh1i.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BmP3z62v.js",
+    "file": "_next/static/chunks/index-Dw01Rlgg.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-DjPHiq1u.js"
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-DTZGTDtF.js",
+      "_vinext-PMBbBh1i.js"
     ],
     "dynamicImports": [
+      "_vinext-PMBbBh1i.js",
       "node_modules/vinext/dist/shims/layout-segment-context.js",
-      "virtual:vinext-app-browser-entry",
       "node_modules/vinext/dist/shims/script.js",
       "node_modules/vinext/dist/shims/image.js",
       "app/GalleryMedia.tsx"
