@@ -1,0 +1,17 @@
+{
+  "name": "Continuum 12000",
+  "short_name": "Continuum 12000",
+  "start_url": "./",
+  "scope": "./",
+  "display": "minimal-ui",
+  "background_color": "#ECE6D9",
+  "theme_color": "#4A8B2C",
+  "icons": [
+    {
+      "src": "library/media/logo-on-light.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
