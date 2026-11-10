@@ -1,3 +1,24 @@
 {
-  "appBrowserEntry": "_next/static/chunks/index-BV-RaEDR.js"
+  "appBrowserRuntime": "_next/static/chunks/BwPM07bv.js",
+  "appBrowserEntry": "_next/static/chunks/BwPM07bv.js",
+  "appRouteManifest": "_next/static/chunks/SFcG4F4c.js",
+  "appClientReferenceChunks": {
+    "references": {
+      "15c18cfaeeff": 0,
+      "60f387d9e0f4": 1,
+      "0bc7ab952501": 1
+    },
+    "modules": [
+      {
+        "file": "_next/static/chunks/C0TKQXbs.js",
+        "imports": [],
+        "css": []
+      },
+      {
+        "file": "_next/static/chunks/ejSfnyLm.js",
+        "imports": [],
+        "css": []
+      }
+    ]
+  }
 }

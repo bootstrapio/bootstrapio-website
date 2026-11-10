@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /continuum12000/
+
+Sitemap: https://bootstrap.io/sitemap.xml
